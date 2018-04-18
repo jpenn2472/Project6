@@ -1,0 +1,66 @@
+/*Imported Font HI + Melody */
+@import url('https://fonts.googleapis.com/css?family=Hi+Melody');
+
+.backBox {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+/* Grey scale filter */
+.filtered {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+/*Div for my name */
+.myName {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: yellow;
+  font-family: 'Hi Melody', cursive;
+  font-size: 50px;
+}
+/* Csd for the nav bar */
+ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 50;
+  overflow: hidden;
+  background-color: #000;
+  opacity: 0.5;
+  font-family:'Hi Melody', cursive;
+  float:right;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  opacity: 1;
+  color: yellow;
+  background-color: white;
+}
+/* used to position div containing animated text */
+.myNote{
+  position: absolute;
+  bottom: 400px;
+}
+/* Div for animation text */
+#boxOne{
+  background:green;
+  text-align:center;
+  color:white;
+  height 100px;
+  position:absolute;
+  
+}
